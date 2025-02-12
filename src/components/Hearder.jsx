@@ -1,4 +1,3 @@
-
 export default function Hearder() {
   return (
     <>
@@ -42,10 +41,7 @@ export default function Hearder() {
             <div className="nav">
               <ul className="nav-list d-flex align-items-center ">
                 <li className="nav-item">
-                  <a href="/">Home
-                  
-                  </a>
-                  
+                  <a href="/">Home</a>
                 </li>
                 <li className="nav-item">
                   <a href="About">About</a>
@@ -67,7 +63,6 @@ export default function Hearder() {
           </div>
         </div>
       </nav>
-      {/* <HomeBanner/> */}
     </>
   );
 }
