@@ -1,0 +1,38 @@
+.containe {
+  width: 1067px;
+  height: 320px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 50px auto;
+}
+
+.image {
+  width: 500px;
+  height: 320px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text {
+  width: 504px;
+  height: auto;
+
+  & p {
+    font-size: 22px;
+    font-family: Mulish,sans-serif;
+    font-weight: 400;
+    color: #515151;
+
+  }
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

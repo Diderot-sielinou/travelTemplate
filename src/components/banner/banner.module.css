@@ -1,0 +1,51 @@
+.Banner {
+  width: 1280px;
+  width: 100%;
+  height: 466px;
+  position: relative;
+  background: linear-gradient(rgba(48, 79, 71, 50%), rgba(48, 79, 71, 50%)),
+    url("https://goafricaexpeditions.com/wp-content/uploads/2024/03/lake-kivu-rwanda-1-636x426.jpg")
+      no-repeat bottom / cover;
+  /* margin-bottom: 20px; */
+}
+
+.textContaine {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+
+  & h1 {
+    font-family: Lora, sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    margin-bottom: 15px;
+    color: var(--white-color);
+  }
+
+  & span,
+  i {
+    color: var(--secondary-color);
+    font-family: Lora, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  & i {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+  }
+}
+
+.textContaine a {
+  font-family: Lora, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: var(--white-color);
+  text-decoration: none;
+  text-align: center;
+}
