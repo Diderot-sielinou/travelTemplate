@@ -1,7 +1,7 @@
-
+import { useNavigate } from "react-router";
 
 export default function Hearder() {
-  // let navigate = useNavigate();
+  let navigate = useNavigate();
   return (
     <>
       <nav className="">
@@ -46,19 +46,19 @@ export default function Hearder() {
               <ul className="nav-list d-flex align-items-center ">
                 <li className="nav-item">
                 {/* <Link to="/">Login again</Link> */}
-                  <a href="/">Home</a>
+                  <a onClick={()=> navigate("/")}>Home</a>
                 </li>
                 <li className="nav-item">
-                  <a href="About">About</a>
+                  <a onClick={()=> navigate("About")} >About</a>
                 </li>
                 <li className="nav-item">
-                  <a href="package">Tour package</a>
+                  <a onClick={()=> navigate("package")} href="package">Tour package</a>
                 </li>
                 <li className="nav-item">
-                  <a href="galery">Gallery Blog</a>
+                  <a onClick={()=> navigate("galery")} >Gallery Blog</a>
                 </li>
                 <li className="nav-item">
-                  <a href="contact">Contact Us</a>
+                  <a onClick={()=> navigate("contact")} >Contact Us</a>
                 </li>
               </ul>
             </div>
