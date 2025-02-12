@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <div className="footer-container">
-      <div className="row  ">
+      <div className="row contai-foot ">
         <div className="col-6 footer1">
           <div className="row g-10 ">
             <h1>If you have any question, <br></br> Let us help you!</h1>

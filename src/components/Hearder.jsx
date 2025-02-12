@@ -1,4 +1,7 @@
+
+
 export default function Hearder() {
+  // let navigate = useNavigate();
   return (
     <>
       <nav className="">
@@ -8,6 +11,7 @@ export default function Hearder() {
               <div className="nav-phone d-flex align-items-center g-1">
                 <span className="material-icons-sharp">phone</span>
                 <span className="number">+237 651831211</span>
+                
               </div>
             </div>
             <div className="nav1-box2 d-flex align-items-center g-1">
@@ -41,6 +45,7 @@ export default function Hearder() {
             <div className="nav">
               <ul className="nav-list d-flex align-items-center ">
                 <li className="nav-item">
+                {/* <Link to="/">Login again</Link> */}
                   <a href="/">Home</a>
                 </li>
                 <li className="nav-item">
