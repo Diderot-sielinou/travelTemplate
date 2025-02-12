@@ -12,8 +12,9 @@ import ContactPage from "./pages/ContactPage";
 function App() {
   return (
     <>
-    <Hearder/>
+    
     <BrowserRouter>
+    <Hearder/>
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="About" element={<AboutPage />} />
@@ -21,9 +22,9 @@ function App() {
       <Route path="galery" element={<GaleryPage />} />
       <Route path="contact" element={<ContactPage />} />
     </Routes>
+    <Footer/>
   </BrowserRouter>
 
-    <Footer/>
     </>
   );
 }

@@ -3,7 +3,7 @@
 
 .container {
   width: 100%;
-  max-width: 1280px;
+  min-width: 1280px;
   height: 722px;
   background: linear-gradient(rgba(48, 79, 71,50%), rgba(48, 79, 71,50%)),
     url("https://goafricaexpeditions.com/wp-content/uploads/2024/03/lake-kivu-rwanda-1-636x426.jpg")
