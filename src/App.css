@@ -8,7 +8,7 @@
 }
 
 .firstNav {
-  max-width: 1280px;
+  min-width: 1280px;
   width: 100%;
   background: var(--primary-color);
   color: var(--white-color);
@@ -40,7 +40,7 @@
 
 .secondNav {
   width: 100%;
-  max-width: 1173px;
+  min-width: 1173px;
   margin: 0 auto;
   height: 97px;
   display: flex;
@@ -91,7 +91,7 @@
 .footer-container {
   padding: 3% 0;
   width: 100%;
-  max-width: 1280px;
+  min-width: 1280px;
   height: 565.37px;
   font-family: Mulish, Helvetica, sans-serif;
   background: var(--primary-color);
