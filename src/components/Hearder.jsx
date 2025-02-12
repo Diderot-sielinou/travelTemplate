@@ -52,7 +52,7 @@ export default function Hearder() {
                   <a onClick={()=> navigate("About")} >About</a>
                 </li>
                 <li className="nav-item">
-                  <a onClick={()=> navigate("package")} href="package">Tour package</a>
+                  <a onClick={()=> navigate("package")} >Tour package</a>
                 </li>
                 <li className="nav-item">
                   <a onClick={()=> navigate("galery")} >Gallery Blog</a>
