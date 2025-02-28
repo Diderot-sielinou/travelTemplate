@@ -1,5 +1,6 @@
 import styles from "./AboutCart.module.css";
 import PropTypes from "prop-types";
+
 export default function AboutCartComponent({ item }) {
   return (
     <div className={styles.containe}>
