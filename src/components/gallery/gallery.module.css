@@ -1,6 +1,7 @@
 .GalleryCart {
   position: relative;
-  column-count: 4;
+  columns: 4 300px;
+  /* column-count: 4; */
   gap: 10px;
 }
 
