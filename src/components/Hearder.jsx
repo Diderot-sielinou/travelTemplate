@@ -39,7 +39,7 @@ export default function Hearder() {
           <div className="logo d-flex align-items-center">
             <div className="img-logo">
               <img
-                src="src/assets/logo.jpeg"
+                src="https://s3-alpha-sig.figma.com/img/7b44/3779/e00233c67a961c8bfdf2e37a4a1ceb1b?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=N9504MoLA-7wKm1kFym93I881KhPBcaCFFJ1NM9GEIbqbttKV3SMj7Wgn2cyInvZXwlNxx-yFZfb0253OobXN3hp19RDVY-u4jptinWJADTA6yOHAfULmbulCfY16lrNfCjeouPe6~42xKFwHzASeRXdhvA6HpZi2-QHeRQ874jIk5yXhHDuLBYQardmJkvQuc8pHF144G7prXpVE41Q57fO3u6NYC6dY828HWrHpL1jD9DNVXlOa9Hc23z45OWvmv8GU0qIWS0qyGHuK62~qRlu90IEKTBChHsgGXfMTZQxfbtBJ2tAVhlzC1pyIYnqK0sDb3sLez6eU1F4TkOYFQ__"
                 alt="logo"
               />
             </div>
